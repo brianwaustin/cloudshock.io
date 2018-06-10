@@ -1,0 +1,23 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - cd src
+  - ../binaries/hugo 
+
+# Deploy to S3 pages
+deploy:
+  provider: s3
+  bucket: "cloudshock.io"
+  skip_cleanup: true
+  access_key_id: AKIAJDCW7VJVH6ITDFAQ
+  secret_access_key:
+    secure: I9yXCfXqtSKAT0vLigkpi8qhvwQk0OjneToEAUX2Q73Koj/OUeHemkAdaQMlNvYNchCZDbtuA+W+avytBhPTBX0Dkko479fnAZmjzWbmNWe+84L+ogH6g4qlBrToslYxT8TMhJB1jO16BdKzIl4CMUNEfiVTtWFMHnNQ0/teBZuFAS0zjpThPNNTbdzVqmQnCOFGOhNNVrhZM9p0pJyuToVtq0v79RQWtKTV7b6wFVbZ50+35Qc4cyKiN0gwlLmMvkRL1VUyQFKKh20rx1Z6uhpuLePOTncDNkREkBTxyLcvKv2CGJim1OhWawLxtVpY3uSnlqU1DzemB1w857c3GhbwA0ff59IP/gWgBIW0nZaOSg9ghEiASNwlwD1tKbJ2uLoICpYk41xYV03BX8t8kaUCrvf3004vStvYijEJyyGjatl3CusnwbmQudnEqWKm2SHpe1uLOP/VN0d6CqBjTNFJbeWeCsxp/doWQwXAGh07XMjlnSS5OfIVGEGqy7XJiiKrCumEryHCH1Bu72jeFkjA6lAloViUpZ34OZODVqf4yLMPWte+v8mphiZNxKRKLVGT869HgGQw4Z+hQHNzHjihhUnD2FLdeAY+R8EOCfJEviiyeByrFdRxCvl4cek78MVQDfwc8Rcpo6vdz11IQeajhznAn0LfbIEJ7PX+lTw=

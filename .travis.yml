@@ -11,7 +11,7 @@ install:
 # Build the website
 script:
   - cd src
-  - ../binaries/hugo 
+  - ../binaries/ 
 
 # Deploy to S3 pages
 deploy:

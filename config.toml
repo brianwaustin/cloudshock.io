@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Cloud Shock"
 Subtitle = "CLOUD DEVELOPMENT FOR THE SMALL ENTERPRISE"
 description = "Cloud Development Topics for the Small to Medium Sized Technology Business"
-copyright = "Copyright © 2017-2018 Brian W Austin"
 [taxonomies]
     tag = "tags"
     category = "categories"

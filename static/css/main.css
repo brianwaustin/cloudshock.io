@@ -251,7 +251,7 @@
 
     @media screen and (min-width:60em) {
         body {
-            font-weight: 300
+            font-weight: 400
         }
     }
 
@@ -339,8 +339,12 @@
 
     h1,
     h2,
-    h3 {
+    h3,
+    h4,
+    h5,
+    h6 {
         font-family: 'Yanone Kaffeesatz', sans-serif;
+        letter-spacing: .0125rem;
     }
 
     .h1,

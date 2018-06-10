@@ -10,7 +10,7 @@ deploy:
   provider: s3
   bucket: cloudshock.io
   region: us-east-1
-  upload-dir: 
+  local_dir: public
   skip_cleanup: true
   access_key_id: AKIAJDCW7VJVH6ITDFAQ
   secret_access_key:

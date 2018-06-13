@@ -54,7 +54,7 @@ Last, by using this stack for a static website I am saving money by not running 
 
   Installing the Linux subsystem on Windows is easy and avoids the overhead of installing a   virtual machine. However you will need a copy of Windows 10.
 
-  The official installationg guide can be found here: [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  The official installation guide can be found here: [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 #### Hugo static site generator ####
 

@@ -15,7 +15,7 @@ this site at a lower cost. Typical Wordpress installations either require a paid
 *NEVER* changes.  
 
 ## How I Built the Site ## 
-I build the Cloud Shock site [cloudshock.io](http://cloudshock.io/) using the following tools:
+I built the Cloud Shock site [cloudshock.io](https://cloudshock.io/) using the following tools:
 * HTML/CSS/JavaScript - Based on a popular Wordpress theme
 * Hugo - An open-source static site generator
 * Github - Version control

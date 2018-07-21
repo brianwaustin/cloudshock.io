@@ -1,4 +1,4 @@
-baseURL = "http://cloudshock.io/"
+baseURL = "https://cloudshock.io/"
 languageCode = "en-us"
 title = "Cloud Shock"
 Subtitle = "CLOUD DEVELOPMENT FOR THE SMALL ENTERPRISE"

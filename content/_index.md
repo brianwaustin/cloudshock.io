@@ -11,11 +11,11 @@ draft: false
 ## HOW TO USE THIS SITE
 The site is divided into three areas:
 
-####  [STRATEGY](../categories/strategy)
+####  [STRATEGY](../categories/strategy/)
 A collection of topics and techniques specifically designed for small teams and companies
 
-#### [ARCHITECTURE](../categories/architecture)
+#### [ARCHITECTURE](../categories/architecture/)
 Practical diagrams of cloud deployments that you can actually use!
 
-#### [PROOF OF CONCEPT](../categories/proof-of-concept)
+#### [PROOF OF CONCEPT](../categories/proof-of-concept/)
 Example cloud deployments: APIs, websites, etc.

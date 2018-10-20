@@ -27,9 +27,11 @@ I built the Cloud Shock site [cloudshock.io](https://cloudshock.io/) using the f
   * CloudFront - SSL assignment and web hosting
   * IAM - Identity management & deployment keys
   * AWS Lamdba / API Gateway - Serverless microservice calls (coming soon)
+  
+## Demo ##
+Working demo can be found here https://cloudshock.io/
 
 ## Roadmap - What's Next?? ## 
-
 My near term roadmap for this project includes
 * Adding additional cloud centric content (the original purpose of the site)
 * Adding analytics, probably via Google

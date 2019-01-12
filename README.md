@@ -31,6 +31,9 @@ I built the Cloud Shock site [cloudshock.io](https://cloudshock.io/) using the f
 ## Demo ##
 Working demo can be found here https://cloudshock.io/
 
+## Run Locally ##
+Install Hugo and from the command line:  hugo server -D
+
 ## Roadmap - What's Next?? ## 
 My near term roadmap for this project includes
 * Adding additional cloud centric content (the original purpose of the site)

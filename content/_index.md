@@ -5,17 +5,17 @@ draft: false
 ---
 
 <img class="article-title-image" src="/images/transonic.png" />
+## AREAS & Topics
+The site is divided into these areas:
 
-### Accelerating Development Shouldn’t Takes Costs into the Stratosphere!
-
-## HOW TO USE THIS SITE
-The site is divided into three areas:
+####  [LEADING EDGE](../categories/leading-edge/)
+Rumors, trends and other industry and technology topics
 
 ####  [STRATEGY](../categories/strategy/)
-A collection of topics and techniques specifically designed for small teams and companies
+Migration and implemenation strategies indeded for small teams and companies
 
 #### [ARCHITECTURE](../categories/architecture/)
-Practical diagrams of cloud deployments that you can actually use!
+Patterns, practices, and proven designs to help you succeed
 
 #### [PROOF OF CONCEPT](../categories/proof-of-concept/)
-Example cloud deployments: APIs, websites, etc.
+Working examples of: APIs, websites, etc.
